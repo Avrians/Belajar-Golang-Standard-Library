@@ -19,7 +19,7 @@ func GetById(id string) error {
 	return nil
 }
 
-func main()  {
+func main02()  {
 	err := GetById("Eko")
 	if err != nil {
 		if errors.Is(err, ValidationError) {

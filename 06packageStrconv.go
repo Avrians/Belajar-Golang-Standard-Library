@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main()  {
+func main06()  {
 	result, err := strconv.ParseBool("true")
 	if err != nil {
 		fmt.Println("Error", err.Error())

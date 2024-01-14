@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main04()  {
 	var username *string = flag.String("username", "root", "database username for mysql")
 	var password *string = flag.String("password", "root", "database password for mysql")
 	var host *string = flag.String("host", "localhost", "database host for mysql")

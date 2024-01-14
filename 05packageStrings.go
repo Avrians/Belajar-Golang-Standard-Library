@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main()  {
+func main05()  {
 	fmt.Println(strings.Contains("Kevin Sanjaya", "Kevin"))
 	fmt.Println(strings.Split("Kevin Sanjaya", " "))
 	fmt.Println(strings.ToLower("Kevin Sanjaya"))

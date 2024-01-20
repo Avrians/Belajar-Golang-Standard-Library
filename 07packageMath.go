@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main()  {
+func main07()  {
 	fmt.Println("Math Package")
 	fmt.Println("============")
 	fmt.Println(math.Ceil(1.49))

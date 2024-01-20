@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main08()  {
 	var data *list.List = list.New()
 
 	data.PushBack("Aku")

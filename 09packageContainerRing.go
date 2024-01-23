@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func main09()  {
 	var data *ring.Ring = ring.New(5)
 
 	// Manual

@@ -24,7 +24,7 @@ func (s UserSlice) Swap(i, j int) {
 	s[i], s[j] = s[j], s[i]
 }
 
-func main()  {
+func main10()  {
 	users := []User{
 		{"John", 20},
 		{"Jane", 30},

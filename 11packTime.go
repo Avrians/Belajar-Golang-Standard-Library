@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main()  {
+func main11a()  {
 	var now time.Time = time.Now()
 	fmt.Println(now)
 	fmt.Println(now.Local())

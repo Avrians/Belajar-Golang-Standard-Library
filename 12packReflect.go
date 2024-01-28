@@ -43,7 +43,7 @@ func isValid(value any) (result bool) {
 	return result
 }
 
-func main()  {
+func main12()  {
 	readField(Sample{Name: "Sample"})
 	readField(Person{"Joko", "jl", "joko@gmail.com"})
 

@@ -5,7 +5,7 @@ import (
 	"regexp"
 )
 
-func main()  {
+func main13()  {
 	var regex *regexp.Regexp = regexp.MustCompilePOSIX(`e([a-z])o`)
 
 	fmt.Println(regex.MatchString("eko"))

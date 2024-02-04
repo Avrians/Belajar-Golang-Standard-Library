@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 )
 
-func main()  {
+func main19()  {
 	fmt.Println(filepath.Dir("hello/world.go"))
 	fmt.Println(filepath.Base("hello/world.go"))
 	fmt.Println(filepath.Ext("hello/world.go"))

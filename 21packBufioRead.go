@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func main()  {
+func main21()  {
 	input := strings.NewReader("Hello, this is long string\nthat is split over\nmany lines\n")
 
 	reader := bufio.NewReader(input)

@@ -36,8 +36,20 @@ func readFile(name string) (string, error) {
 	return message, nil
 }
 
+func addToFile(name string, message string) error {
+	file, err := os.OpenFile(name, os.O_RDWR|os.O_APPEND, 0666)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+	file.WriteString(message)
+	return nil
+}
+
 func main()  {
 	// createNewFile("test.txt", "Hello, World!")
-	result, _ := readFile("test.txt")
-	println(result)
+	// result, _ := readFile("test.txt")
+	// println(result)
+
+	addToFile("test.txt", "this is added message\n")
 }
